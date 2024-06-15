@@ -42,4 +42,15 @@ a.nav:hover {
     .nav-sec {
         margin-left: 0%;
     }
+
+    a.active::before,
+    a.nav:hover::before {
+        width: 30px;
+    }
+
+    a.active,
+    a.nav:hover {
+        padding-left: 40px;
+        opacity: 100%;
+    }
 }

@@ -7,8 +7,10 @@ import RightSide from './components/RightSide';
 function App() {
   return (
     <div className="App">
-      <LeftSide />
-      <RightSide />
+      <div className="container">
+        <LeftSide />
+        <RightSide />
+      </div>
       <Cursor />
     </div>
   );

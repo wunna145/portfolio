@@ -35,5 +35,11 @@ a.nav:hover {
 .nav-sec {
     display: flex;
     flex-direction: column;
-    padding-left: 28%;
+    margin-left: 28%;
+}
+
+@media (max-width: 800px) {
+    .nav-sec {
+        margin-left: 0%;
+    }
 }

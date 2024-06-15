@@ -1,0 +1,13 @@
+.cursor {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(5, 67, 207, 0.1);
+    position: absolute;
+    pointer-events: none; /* Prevents the cursor from blocking clicks */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+    z-index: 1000;
+    box-shadow: 0 0 200px 200px rgba(65, 67, 207, 0.1);
+  }
+  

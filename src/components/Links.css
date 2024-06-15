@@ -1,0 +1,18 @@
+.links img {
+    width: 25px;
+    height: auto;
+    opacity: 0.7;
+    transform: all 0.5s ease;
+}
+
+.links img:hover {
+    opacity: 1;
+}
+
+.links {
+    margin-top: 20%;
+    width: 30%;
+    margin-left: 28%;
+    display: flex;
+    justify-content: space-between;
+}

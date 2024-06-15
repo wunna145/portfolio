@@ -8,3 +8,16 @@
 .highlight{
     color: rgba(255, 255, 255, 1); 
 }
+
+@media (max-width: 800px) {
+    .footer-text {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .footer {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0%;
+    }
+}

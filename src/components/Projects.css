@@ -67,3 +67,15 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 800px) {
+    #projects {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0%;
+    }
+
+    .pjmain {
+        margin-right: 0%;
+    }
+}

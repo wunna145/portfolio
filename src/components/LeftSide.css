@@ -9,6 +9,7 @@
 @media (max-width: 800px) {
     .left-side {
       width: 100%;
+      height: auto;
       align-items: center;
     }
 }

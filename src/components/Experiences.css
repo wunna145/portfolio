@@ -65,3 +65,15 @@
 .resume-link a:hover::after {
     transform: rotate(315deg) translateX(+8px);
 }
+
+@media (max-width: 800px) {
+    #experiences {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0%;
+    }
+
+    .exp {
+        margin-right: 0%;;
+    }
+}

@@ -9,11 +9,11 @@ const Navigation = () => {
       const rightSide = document.querySelector('.right-side'); 
       const scrollPosition = rightSide.scrollTop;
   
-      if (scrollPosition >= 0 && scrollPosition < 350) {
+      if (scrollPosition >= 0 && scrollPosition < 300) {
         setActiveLink('about');
-      } else if (scrollPosition >= 350 && scrollPosition < 1800) {
+      } else if (scrollPosition >= 300 && scrollPosition < 1650) {
         setActiveLink('experiences');
-      } else if (scrollPosition >= 1800) {
+      } else if (scrollPosition >= 1650) {
         setActiveLink('projects');
       }
     };

@@ -33,7 +33,7 @@ const Projects = () => {
       image: 'zacwarbler',
       title: 'Warbler',
       tech: 'Python · Flask · PostgreSQL · SQLAlchemy · Bcrypt · WTForms · Jinja',
-      description: 'ZacWarber is a multifunctional platform designed for seamless interaction '+
+      description: 'ZacWarbler is a multifunctional platform designed for seamless interaction '+
       'and content management. Users can post, react, comment, and save posts from their own '+
       'feed or others.',
       link: 'zacwarbler.onrender.com',

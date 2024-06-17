@@ -1,8 +1,8 @@
 import React from "react";
-import instagram from '../resources/instagram.png';
-import linkedin from '../resources/linkedin.png';
-import github from '../resources/github.png';
-import gmail from '../resources/gmail.png';
+import instagram from '../assets/instagram.png';
+import linkedin from '../assets/linkedin.svg';
+import github from '../assets/github.svg';
+import gmail from '../assets/mail.svg';
 import './Links.css';
 
 const Links = () => {

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css';
-import musicsphere from '../resources/musicsphere.jpg';
-import metacity from '../resources/metacity.jpg';
-import zacwarbler from '../resources/zacwarbler.jpg';
+import musicsphere from '../assets/musicsphere.jpg';
+import metacity from '../assets/metacity.jpg';
+import zacwarbler from '../assets/zacwarbler.jpg';
 
 const Projects = () => {
   const images = {

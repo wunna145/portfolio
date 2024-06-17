@@ -1,6 +1,6 @@
 import React from "react";
 import './Experiences.css';
-import resume from '../resources/resume.pdf';
+import resume from '../assets/resume.pdf';
 
 const Experiences = () => {
     const exps = [

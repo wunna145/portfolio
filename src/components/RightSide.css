@@ -1,0 +1,16 @@
+.right-side {
+    width: 50%;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+    .right-side {
+      width: 100%;
+      height: auto;
+      overflow-y: hidden;
+    }
+}
+  

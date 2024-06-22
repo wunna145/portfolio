@@ -1,0 +1,27 @@
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #E2E8F0;
+  background-color: rgb(18, 26, 43);
+}
+
+h2 {
+  font-weight: 700; /* Bold weight, adjust as needed */
+}
+
+p {
+  font-weight: 400; /* Regular weight, adjust as needed */
+}
+
+.cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    pointer-events: none; /* Prevents the cursor from blocking clicks */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease;
+}
+  

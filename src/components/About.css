@@ -1,0 +1,18 @@
+.aboutme {
+    padding-top: 8%;
+    padding-right: 20%;
+}
+
+p {
+    opacity: 75%;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+@media (max-width: 800px) {
+    #about {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin: 0%;
+    }
+}

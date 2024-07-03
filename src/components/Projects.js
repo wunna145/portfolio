@@ -47,7 +47,7 @@ const Projects = () => {
         <a key={index} href={`https://${project.link}`}  target="_blank" rel="noopener noreferrer" className="project-link">
           <div className="pjmain">
             <div className='image'>
-              <img src={images[project.image]} className='project-image'/>
+              <img src={images[project.image]} alt='pj-img' className='project-image'/>
             </div>
             <div className='project'>
               <p className='title'>{project.title}</p>

@@ -13,7 +13,7 @@ const Navigation = () => {
         setActiveLink('about');
       } else if (scrollPosition >= 300 && scrollPosition < 1650) {
         setActiveLink('experiences');
-      } else if (scrollPosition >= 1650) {
+      } else if (scrollPosition >= 1600) {
         setActiveLink('projects');
       }
     };

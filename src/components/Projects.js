@@ -3,6 +3,7 @@ import './Projects.css';
 import musicsphere from '../assets/musicsphere.jpg';
 import metacity from '../assets/metacity.jpg';
 import zacwarbler from '../assets/zacwarbler.jpg';
+import resume from '../assets/resume.pdf';
 
 const Projects = () => {
   const images = {
@@ -57,6 +58,11 @@ const Projects = () => {
           </div>
         </a>
       ))}
+      <div className="resume-link">
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          View My Resume
+        </a>
+      </div>
     </section>
   );
 };

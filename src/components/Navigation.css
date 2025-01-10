@@ -35,6 +35,7 @@ a.nav:hover {
 .nav-sec {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
     margin-left: 28%;
 }
 

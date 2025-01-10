@@ -9,12 +9,12 @@ const Navigation = () => {
       const rightSide = document.querySelector('.right-side'); 
       const scrollPosition = rightSide.scrollTop;
   
-      if (scrollPosition >= 0 && scrollPosition < 300) {
+      if (scrollPosition >= 0 && scrollPosition < 200) {
         setActiveLink('about');
-      } else if (scrollPosition >= 300 && scrollPosition < 1500) {
-        setActiveLink('experiences');
-      } else if (scrollPosition >= 1500) {
+      } else if (scrollPosition >= 200 && scrollPosition < 1000) {
         setActiveLink('projects');
+      } else if (scrollPosition >= 1000) {
+        setActiveLink('experiences');
       }
     };
   
@@ -48,19 +48,19 @@ const Navigation = () => {
       </a>
       <br/>
       <a
-        className={`nav ${activeLink === 'experiences' ? 'active' : ''}`}
-        href="#experiences"
-        onClick={handleNavClick}
-      >
-          Experiences
-      </a>
-      <br/>
-      <a
         className={`nav ${activeLink === 'projects' ? 'active' : ''}`}
         href="#projects"
         onClick={handleNavClick}
       >
           Projects
+      </a>
+      <br/>
+      <a
+        className={`nav ${activeLink === 'experiences' ? 'active' : ''}`}
+        href="#experiences"
+        onClick={handleNavClick}
+      >
+          Experiences
       </a>
     </div>
   );

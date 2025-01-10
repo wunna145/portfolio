@@ -9,8 +9,8 @@ const RightSide = () => {
   return (
     <div className="right-side">
       <About />
-      <Experiences />
       <Projects />
+      <Experiences />
       <Footer />
     </div>
   );

@@ -1,9 +1,19 @@
 import React from "react";
 import './Experiences.css';
-import resume from '../assets/resume.pdf';
 
 const Experiences = () => {
     const exps = [
+        {
+            company: 'Zelio, LLC',
+            period: '2024 - Live',
+            position: 'Founder/Web Developer',
+            description: 'Designed and developed a responsive e-commerce website using '+
+            'React, Node.js, and PostgreSQL, ensuring a seamless user experience. Built '+
+            'efficient back-end systems and integrated the database for effective product '+
+            'management and smooth transaction processing. Optimized performance and '+
+            'implemented key features to support business growth.',
+            skills: 'Project Management · JavaScript · React.js · Express.js · Node.js · PostgreSQL'
+        },
         {
             company: 'Springboard', 
             period: '2023 - 2024',
@@ -71,11 +81,6 @@ const Experiences = () => {
               </div>
             </div>
           ))}
-            <div className="resume-link">
-                <a href={resume} target="_blank" rel="noopener noreferrer">
-                    View My Resume
-                </a>
-            </div>
         </section>
     );
 } 

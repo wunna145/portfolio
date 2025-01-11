@@ -58,6 +58,16 @@ const Projects = () => {
           </div>
         </a>
       ))}
+      <div className='live-sec'>
+        <p>
+          <span id='ongoing-label'>Ongoing:   </span>
+          <span id='ongoing-pj'>Fixing API issues on MetaCity project</span>
+        </p>
+        <p>
+          <span id='upcoming-label'>Upcoming:   </span>
+          <span id='upcoming-pj'>MusicSphere 2, MetaCity 2</span>
+        </p>
+      </div>
       <div className="resume-link">
         <a href={resume} target="_blank" rel="noopener noreferrer">
           View My Resume

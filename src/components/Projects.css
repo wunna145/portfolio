@@ -68,6 +68,23 @@ a {
     color: inherit;
 }
 
+.live-sec p {
+    font-size: 14px;
+}
+
+#ongoing-pj {
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}
+
 @media (max-width: 800px) {
     #projects {
         padding-left: 10%;

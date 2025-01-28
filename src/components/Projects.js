@@ -61,11 +61,11 @@ const Projects = () => {
       <div className='live-sec'>
         <p>
           <span id='ongoing-label'>Ongoing:   </span>
-          <span id='ongoing-pj'>Fixing API issues on MetaCity project</span>
+          <span id='ongoing-pj'>New Project - PennyPlanner</span>
         </p>
         <p>
           <span id='upcoming-label'>Upcoming:   </span>
-          <span id='upcoming-pj'>MusicSphere 2, MetaCity 2</span>
+          <span id='upcoming-pj'>MusicSphere 2</span>
         </p>
       </div>
       <div className="resume-link">

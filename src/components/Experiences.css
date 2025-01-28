@@ -1,6 +1,11 @@
 .exp-sec {
     margin-bottom: 5%;
-    padding-top: 5%;
+}
+
+.exp-header {
+    font-weight: bold;
+    opacity: 1;
+    font-size: 20px;
 }
 
 .expmain {

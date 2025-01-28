@@ -69,6 +69,7 @@ const Experiences = () => {
 
     return (
         <section id="experiences" className="exp-sec">
+          <p className="exp-header">Experiences</p>
           {exps.map((exp, index) => (
             <div key={index} className="expmain">
               <div className='period'>

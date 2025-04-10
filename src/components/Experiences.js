@@ -6,7 +6,7 @@ const Experiences = () => {
         {
             company: 'Zelio, LLC',
             period: '2024 - Live',
-            position: 'Founder/Web Developer',
+            position: 'Co-Founder/Web Developer',
             description: 'Designed and developed a responsive e-commerce website using '+
             'React, Node.js, and PostgreSQL, ensuring a seamless user experience. Built '+
             'efficient back-end systems and integrated the database for effective product '+

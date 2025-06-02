@@ -16,7 +16,7 @@ const Profile = () => {
       <h2>Zaw Wunna</h2>
       <h5>Software Engineer</h5>
       <p>I create seamless, intuitive, and user-friendly software solutions.</p>
-      <div className='skills-container'> 
+      {/* <div className='skills-container'> 
             <img title="Python" src={python} />
             <img title="Flask" src={flask} />
             <img title="JavaScript" src={javascript} />
@@ -26,7 +26,7 @@ const Profile = () => {
             <img title="REST" src={rest} />
             <img title="PostgreSQL" src={postgresql} />
             <img title="Git" src={git} />
-      </div>
+      </div> */}
     </section>
   );
 };

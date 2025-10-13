@@ -5,14 +5,15 @@ const Experiences = () => {
     const exps = [
         {
             company: 'Zelio, LLC',
-            period: '2024 - Live',
-            position: 'Co-Founder/Web Developer',
-            description: 'Designed and developed a responsive e-commerce website using '+
-            'React, Node.js, and PostgreSQL, ensuring a seamless user experience. Built '+
-            'efficient back-end systems and integrated the database for effective product '+
-            'management and smooth transaction processing. Optimized performance and '+
-            'implemented key features to support business growth.',
-            skills: 'Project Management · JavaScript · React.js · Express.js · Node.js · PostgreSQL'
+            period: '2024 - 2025',
+            position: 'Co-Founder/Manager',
+            description: 'Founded and operated a thriving gift shop, curating a range of high-quality, unique products to meet customer preferences.'+
+            'Oversaw day-to-day operations, including inventory management, vendor relations, and sales tracking, ensuring seamless business performance.'+
+            'Fostered a welcoming environment and built strong customer relationships, enhancing satisfaction and loyalty.'+
+            'Drove traffic and sales through innovative marketing strategies, such as seasonal promotions and social media campaigns.'+
+            'Conducted data-driven analysis of sales trends to optimize product offerings, resulting in consistent growth and customer retention.'+
+            'Recruited, trained, and mentored part-time staff, cultivating a positive and efficient work environment.',
+            skills: 'Project Management · Data Analysis · Probleming Solving · Leadership · Customer Experience · Strategic Planning'
         },
         {
             company: 'Springboard', 

@@ -63,17 +63,13 @@
     font-size: 14px;
 }
 
+.repo:hover{
+    opacity: 1;
+}
+
 a {
     text-decoration: none;
     color: inherit;
-}
-
-.live-sec p {
-    font-size: 14px;
-}
-
-#ongoing-pj {
-    animation: flash 2s infinite;
 }
 
 @keyframes flash {

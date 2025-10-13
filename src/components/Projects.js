@@ -20,7 +20,8 @@ const Projects = () => {
       description: 'Implemented features allowing users to explore music without creating an account, '+
       'and enabling account creation for playlist creation and management. Skills honed in '+
       'full-stack web development, RESTful API implementation, and database management.',
-      link: 'musicsphere.wiki'
+      link: 'musicsphere.wiki',
+      repo: 'github.com/wunna145/capstone-2'
     },
     {
       image: 'metacity',
@@ -29,6 +30,7 @@ const Projects = () => {
       description: 'A responsive web application provides a comprehensive resource for superhero '+
       'enthusiasts. Educated users about various superheroes and their backgrounds.',
       link: 'metacity.onrender.com',
+      repo: 'github.com/wunna145/Capstone-1'
     },
     {
       image: 'zacwarbler',
@@ -38,6 +40,7 @@ const Projects = () => {
       'and content management. Users can post, react, comment, and save posts from their own '+
       'feed or others.',
       link: 'zacwarbler.onrender.com',
+      repo: 'github.com/wunna145/Warbler'
     }
 
   ];
@@ -54,20 +57,11 @@ const Projects = () => {
               <p className='title'>{project.title}</p>
               <p className='description'>{project.description}</p> 
               <p className='tech'>{project.tech}</p>
+              <p className='repo'>{`https://${project.repo}`}</p>
             </div>
           </div>
         </a>
       ))}
-      <div className='live-sec'>
-        <p>
-          <span id='ongoing-label'>Ongoing:   </span>
-          <span id='ongoing-pj'>New Project - PennyPlanner</span>
-        </p>
-        <p>
-          <span id='upcoming-label'>Upcoming:   </span>
-          <span id='upcoming-pj'>MusicSphere 2</span>
-        </p>
-      </div>
       <div className="resume-link">
         <a href={resume} target="_blank" rel="noopener noreferrer">
           View My Resume

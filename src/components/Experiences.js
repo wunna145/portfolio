@@ -35,7 +35,7 @@ const Experiences = () => {
             company: 'Burmese Ghouls',
             period: '2021 - 2022',
             position: 'Team Leader',
-            description: 'Led, monitored, and supervised the players in my team ' +
+            description: 'Led, monitored, and supervised the players in my League of Legends: Wild Rift team ' +
             'to achieve goals that contribute to the growth of the organization. ' + 
             'Motivated and inspired my team by creating an environment that promotes ' +
             'positive communication, encourages bonding of team members, and ' + 

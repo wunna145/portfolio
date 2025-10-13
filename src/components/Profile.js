@@ -15,7 +15,7 @@ const Profile = () => {
     <section id="profile">
       <h2>Zaw Wunna</h2>
       <h5>Software Engineer</h5>
-      <p>I create seamless, intuitive, and user-friendly software solutions.</p>
+      <p>CS student with hands-on full-stack projects, seeking an SWE role to grow and contribute.</p>
       {/* <div className='skills-container'> 
             <img title="Python" src={python} />
             <img title="Flask" src={flask} />

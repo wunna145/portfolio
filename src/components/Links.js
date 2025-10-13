@@ -12,7 +12,7 @@ const Links = () => {
             <a href="https://www.linkedin.com/in/zaw-wunna/" target="_blank" title="LinkedIn"> <img src={linkedin} /> </a>
             <a href="https://www.github.com/wunna145" target="_blank" title="GitHub"> <img src={github} /> </a>
             <a href={resume} target="_blank" title="Resume"><img src={resumeLogo} /></a>
-            <a href="mailto:zawwunna.dev@gmail.com" title="Gmail"><img src={gmail} /></a>
+            <a href="mailto:zawwunna.dev@gmail.com" title="Email"><img src={gmail} /></a>
         </div>
     );
 };

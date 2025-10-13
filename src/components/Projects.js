@@ -55,7 +55,7 @@ const Projects = () => {
           <div className='project'>
             <p className='title'>{project.title}</p>
             <a className='link' href={`https://${project.link}`} target="_blank" rel="noopener noreferrer"> App </a>
-            <a className='link' href={`https://${project.repo}`} target="_blank" rel="noopener noreferrer"> Repo </a>
+            <a className='link' href={`https://${project.repo}`} target="_blank" rel="noopener noreferrer"> Github </a>
             <p className='description'>{project.description}</p> 
             <p className='tech'>{project.tech}</p>
           </div>

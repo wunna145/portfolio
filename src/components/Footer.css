@@ -9,6 +9,29 @@
     color: rgba(255, 255, 255, 1); 
 }
 
+.repo{
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+}
+
+.repo::after{
+    content: '→';
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 5px;
+    display: inline-block;
+    transform: rotate(315deg);
+    transition: transform 0.3s ease;
+}
+
+.repo:hover{
+    color: rgba(255, 255, 255, 1); 
+}
+
+.repo:hover::after{
+    transform: rotate(315deg) translateX(+4px);
+}
+
 @media (max-width: 800px) {
     .footer-text {
         padding-right: 0%;

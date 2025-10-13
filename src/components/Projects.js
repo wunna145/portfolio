@@ -48,19 +48,18 @@ const Projects = () => {
   return (
     <section id="projects" className='pj-sec'>
       {projects.map((project, index) => (
-        <a key={index} href={`https://${project.link}`}  target="_blank" rel="noopener noreferrer" className="project-link">
-          <div className="pjmain">
-            <div className='image'>
-              <img src={images[project.image]} alt='pj-img' className='project-image'/>
-            </div>
-            <div className='project'>
-              <p className='title'>{project.title}</p>
-              <p className='description'>{project.description}</p> 
-              <p className='tech'>{project.tech}</p>
-              <p className='repo'>{`https://${project.repo}`}</p>
-            </div>
+        <div key={index} className="pjmain">
+          <div className='image'>
+            <img src={images[project.image]} alt='pj-img' className='project-image'/>
           </div>
-        </a>
+          <div className='project'>
+            <p className='title'>{project.title}</p>
+            <a className='link' href={`https://${project.link}`} target="_blank" rel="noopener noreferrer"> App </a>
+            <a className='link' href={`https://${project.repo}`} target="_blank" rel="noopener noreferrer"> Repo </a>
+            <p className='description'>{project.description}</p> 
+            <p className='tech'>{project.tech}</p>
+          </div>
+        </div>
       ))}
       <div className="resume-link">
         <a href={resume} target="_blank" rel="noopener noreferrer">

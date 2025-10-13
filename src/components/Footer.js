@@ -8,11 +8,11 @@ const Footer = () => {
       using <span class="highlight">Visual Studio Code</span>, this site is built with 
       <span class="highlight"> React.js</span> and styled with <span class="highlight">CSS</span>. 
       Images are dynamically imported and displayed based on project data. 
-      Deployed seamlessly on <span class="highlight">Render</span>.
-      </p>
-      <a href="https://github.com/wunna145/portfolio" target="_blank" rel="noopener noreferrer">
+      Deployed seamlessly on <span class="highlight">Render</span>.<br />
+      <a className='repo' href="https://github.com/wunna145/portfolio" target="_blank" rel="noopener noreferrer">
         Visit Repository
       </a>
+      </p>
     </footer>
   );
 };

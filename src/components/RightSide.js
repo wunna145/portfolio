@@ -1,4 +1,3 @@
-import React from 'react';
 import './RightSide.css';
 import Projects from './Projects';
 import About from './About';

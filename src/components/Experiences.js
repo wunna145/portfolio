@@ -1,4 +1,3 @@
-import React from "react";
 import './Experiences.css';
 
 const Experiences = () => {
@@ -35,8 +34,8 @@ const Experiences = () => {
             company: 'Burmese Ghouls',
             period: '2021 - 2022',
             position: 'Team Leader',
-            description: 'Led, monitored, and supervised the players in my League of Legends: Wild Rift team ' +
-            'to achieve goals that contribute to the growth of the organization. ' + 
+            description: 'Led, monitored, and supervised the players in my League of Legends: Wild Rift team, ' +
+            'winning local tournaments with 97% game win rate and qualified to participate in 31st SEA games as a representative wild rift team for Myanmar. ' + 
             'Motivated and inspired my team by creating an environment that promotes ' +
             'positive communication, encourages bonding of team members, and ' + 
             'demonstrates flexibility. Analyzed my team and created the better ' + 

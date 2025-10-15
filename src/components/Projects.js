@@ -1,11 +1,14 @@
-import React from 'react';
+import { useContext } from 'react';
 import './Projects.css';
 import musicsphere from '../assets/musicsphere.jpg';
 import metacity from '../assets/metacity.jpg';
 import zacwarbler from '../assets/zacwarbler.jpg';
 import resume from '../assets/resume.pdf';
+import { ButtonContext } from '../ButtonContext';
 
 const Projects = () => {
+    const { clickedButton, setClickedButton } = useContext(ButtonContext);
+  
   const images = {
     "musicsphere": musicsphere,
     "metacity": metacity,
@@ -42,8 +45,11 @@ const Projects = () => {
       link: 'zacwarbler.onrender.com',
       repo: 'github.com/wunna145/Warbler'
     }
+ ];
 
-  ];
+  const pjsClick = () => {
+    setClickedButton('projects');
+  }
 
   return (
     <section id="projects" className='pj-sec'>
@@ -61,11 +67,16 @@ const Projects = () => {
           </div>
         </div>
       ))}
-      <div className="resume-link">
-        <a href={resume} target="_blank" rel="noopener noreferrer">
-          View My Resume
-        </a>
-      </div>
+      {clickedButton === 'home' && (
+        <div className="resume-link">
+          <a onClick={pjsClick}>
+            View More Projects
+          </a><br /><br />
+          <a href={resume} target="_blank" rel="noopener noreferrer">
+            View My Resume
+          </a>
+        </div>
+      )}
     </section>
   );
 };

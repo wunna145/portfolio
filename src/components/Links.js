@@ -1,4 +1,3 @@
-import React from "react";
 import resumeLogo from '../assets/resume.svg';
 import resume from '../assets/resume.pdf';
 import linkedin from '../assets/linkedin.svg';

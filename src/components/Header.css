@@ -1,0 +1,35 @@
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 0 0 0 0.5px #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 70px;
+    margin-left: 33%;
+    width: 30%;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.alt{
+    opacity: 0.5;
+}
+
+.alt:hover{
+    opacity: 1;
+}
+
+@media (max-width: 800px) {
+  .buttons-container {
+    width: 80%;          
+    margin: 20px auto 0;  
+    gap: 20px;         
+    padding: 10px 15px;
+    flex-wrap: wrap;
+  }
+
+  .buttons-container a {
+    font-size: 16px;
+  }
+}

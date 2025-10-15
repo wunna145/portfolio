@@ -4,7 +4,7 @@
     border-radius: 50%;
     background-color: rgba(5, 67, 207, 0.1);
     position: absolute;
-    pointer-events: none; /* Prevents the cursor from blocking clicks */
+    pointer-events: none;
     transform: translate(-50%, -50%);
     transition: transform 0.1s ease;
     z-index: 1000;

@@ -44,33 +44,6 @@
     opacity: 1;
 }
 
-.resume-link {
-    padding-top: 20px;
-}
-
-.resume-link a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    position: relative;
-}
-
-.resume-link a::after {
-    content: '→';
-    font-size: 16px;
-    font-weight: bolder;
-    margin-left: 5px;
-    position: absolute;
-    top: 0;
-    display: inline-block;
-    transform: rotate(315deg);
-    transition: transform 0.3s ease;
-}
-
-.resume-link a:hover::after {
-    transform: rotate(315deg) translateX(+6px);
-}
-
 @media (max-width: 800px) {
     #experiences {
         padding-left: 10%;

@@ -17,6 +17,10 @@ const Projects = () => {
 
   const handleCardClick = (index) => {
     setShowMessage((prev) => ({ ...prev, [index]: true }));
+
+    setTimeout(() => {
+      setShowMessage((prev) => ({ ...prev, [index]: false}));
+    }, 5000);
   };
 
   const handleLinkClick = (index) => {
@@ -144,7 +148,7 @@ const Projects = () => {
             )}
             <a className='link' href={`https://${project.repo}`} target="_blank" rel="noopener noreferrer" onClick={() => handleLinkClick(index)}> Github </a>
             {showMessage[index] && (
-              <span className="select-msg" style={{ color: "red", marginLeft: "10px", fontSize: "0.9rem" }}>
+              <span className="select-msg fade-out">
                 Please select App or Github
               </span>
             )}

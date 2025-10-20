@@ -106,13 +106,26 @@
     font-size: 14px;
 }
 
-@keyframes flash {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0.3;
-    }
+.select-msg {
+    color: red;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 5s forwards;
 }
 
 @media (max-width: 800px) {

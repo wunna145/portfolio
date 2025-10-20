@@ -9,7 +9,7 @@ const Footer = () => {
       Images are dynamically imported and displayed based on project data. 
       Deployed seamlessly on <span class="highlight">Render</span>.<br />
       <a className='repo' href="https://github.com/wunna145/portfolio" target="_blank" rel="noopener noreferrer">
-        Visit Repository
+        Visit Github Repository
       </a>
       </p>
     </footer>

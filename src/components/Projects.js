@@ -48,7 +48,7 @@ const Projects = () => {
     {
       image: 'musicsphere',
       title: 'Music Sphere',
-      tech: 'JavaScript · Node.js · Express.js · React.js · PostgreSQL · HTML & CSS' ,
+      tech: 'JavaScript · Node.js · Express.js · React.js · PostgreSQL · CSS' ,
       description: 'Implemented features allowing users to explore music without creating an account, '+
       'and enabling account creation for playlist creation and management. Skills honed in '+
       'full-stack web development, RESTful API implementation, and database management.',
